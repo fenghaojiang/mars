@@ -95,3 +95,13 @@ CREATE TABLE ens
     transaction_hash VARCHAR,
     block_number     BIGINT UNSIGNED
 );
+
+
+CREATE TABLE token
+(
+    address VARCHAR,
+    symbol VARCHAR,
+    decimals BIGINT,
+    total_supply BIGINT UNSIGNED,
+    block_number BIGINT UNSIGNED
+);

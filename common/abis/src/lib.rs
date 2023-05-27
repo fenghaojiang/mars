@@ -12,16 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-mod block_number;
-mod blocks;
-mod contracts;
-mod receipts;
-mod syncing;
-mod token;
+mod erc20;
 
-pub use block_number::BlockNumber;
-pub use blocks::BlockFetcher;
-pub use contracts::ContractFetcher;
-pub use receipts::ReceiptFetcher;
-pub use token::TokenFetcher;
-pub use syncing::Syncing;
+pub use erc20::Erc20Abi;
+
+

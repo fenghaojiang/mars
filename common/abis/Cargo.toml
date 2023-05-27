@@ -1,0 +1,27 @@
+[package]
+name = "common-abis"
+version = "0.1.0"
+edition = "2021"
+
+
+[lib]
+doctest = false
+test = false
+
+[dependencies]
+clap = { version = "4.1.7", features = ["derive", "env"] }
+serde = { version = "1.0.137", features = ["derive"] }
+serfig = "0.0.3"
+web3 = "0.18.0"
+common-exceptions = { path = "../exceptions" }
+
+[dev-dependencies]
+pretty_assertions = "1.3.0"
+
+
+
+
+
+
+
+

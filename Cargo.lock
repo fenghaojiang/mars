@@ -456,6 +456,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "common-abis"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "common-exceptions",
+ "pretty_assertions",
+ "serde",
+ "serfig",
+ "web3",
+]
+
+[[package]]
 name = "common-configs"
 version = "0.1.0"
 dependencies = [
